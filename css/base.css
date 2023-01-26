@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
+    color:#FFFFFF;
+    background-color:#0B1D26;
+    background-image: url(../img/Header-bg.jpg);
+    /* 100% - weight, auto - height  */
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}   
+.none {
+    display: none !important;
+}
+/* Елемент находиться в розметке но скрыт  */
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background:transparent;
+    font-size: 0;
+    }
+    .container {
+        width: 1790px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  /* section home  */
+    .container-wide-02 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 980px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: transform 0.8s cubic-bezier(0.225, -0.32, 0.09, 1.65);
+        margin-bottom: 843px;
+      }
+  /* section Getstarted */
+      .container-wide-3 {
+        display: flex;
+        max-width: 1492px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* section Getstarted-02  */
+      .container-wide-4 {
+        max-width: 1492px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* section Getstarted-03  */
+   .container-wide-5 {
+  display: flex;
+  max-width: 1492px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* container-06-footer  */
+
+
+
+
+.container-06-footer {
+  display: flex;
+    width: 1790px;
+    padding-left: 229px;
+    padding-right: 229px;
+    margin-left: auto;
+    margin-right: auto;
+}

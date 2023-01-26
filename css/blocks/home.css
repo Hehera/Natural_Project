@@ -1,0 +1,62 @@
+.container-wide-02:hover {
+  transform: translateY(-5%);
+}
+/* ефект тряски */
+.home-content {
+}
+.home-heading {
+  margin-bottom: 32px;
+  position: relative;
+  padding-left: 104px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+}
+/* Псевдоелемент  */
+.home-heading::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  content: "";
+  width: 72px;
+  height: 2px;
+  background-color: blanchedalmond;
+}
+.home-text {
+  margin-bottom: 32px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 88px;
+  line-height: 100px;
+  text-transform: capitalize;
+}
+.btn-scroll {
+  /* обмежений контейнер  */
+  display: inline-block;
+  position: relative;
+  padding-right: 32px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.btn-scroll::after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 24px;
+  background-image: url("./../../img/arrow-down.svg");
+}

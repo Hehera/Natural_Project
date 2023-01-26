@@ -1,0 +1,64 @@
+.header {
+  padding-top: 70px;
+  padding-bottom: 198px;
+}
+
+.header_row {
+  display: flex;
+  text-align: center;
+}
+.logo {
+    margin-right: auto;
+}
+.header_nav ul {
+  display: flex;
+  margin-right: 105px;
+}
+.header_nav li + li {
+  margin-left: 40px;
+}
+
+.header_nav a {
+    position: relative;
+  transition: color 0.2s ease;
+}
+.header_nav a::after {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: aliceblue;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+  }
+  .header_nav a:hover::after {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: aliceblue;
+    opacity: 1;
+  }
+
+.header_login {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header_login > * + * {
+  margin-left: 8px;
+}
+
+.header-login-link {
+  transition: color 0.2s ease;
+}
+.header-login-link:hover {
+  color: bisque;
+}
